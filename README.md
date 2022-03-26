@@ -12,14 +12,14 @@ Docker Volume:
 
 Docker volume commands:
 
-docker volume create myvol
-docker volume ls
-docker volume rm myvol
+-> docker volume create myvol
+-> docker volume ls
+-> docker volume rm myvol
 
 To create as well as bind with container use flag -v command while creating container:
-docker container run -d -v host_volume_name:container_location image_name
+->docker container run -d -v host_volume_name:container_location image_name
 
-Anonymous Volume: If you don't provide any name. Docker usually created anonymous volume.
+Anonymous Volume: If you don't provide any name. Docker usually creates anonymous volume.
 Named Volume: If we provide name to the volume. Easy to locate. 
 
 Assignment: Database Upgrade
